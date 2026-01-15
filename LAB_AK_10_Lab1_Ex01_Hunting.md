@@ -284,7 +284,7 @@ In this task, you'll create a hunting query, bookmark a result, and create a Liv
 
 1. Scroll left to notice that the *Severity* column is now populated with the incident's data.
 
-   >**Note:** If you can't find an incident as your system has not generated some so far, you can create one manually following the instructions here - [Create an incident using the Azure portal](https://learn.microsoft.com/en-us/azure/sentinel/create-incident-manually#create-an-incident-using-the-azure-portal) 
+   >**Note:** If no incidents exist yet, one can be created manually in the Azure portal as documented - [Create an incident using the Azure portal](https://learn.microsoft.com/en-us/azure/sentinel/create-incident-manually#create-an-incident-using-the-azure-portal)
 
 ### Task 2: Create an NRT query rule
 
