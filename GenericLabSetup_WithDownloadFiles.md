@@ -3,7 +3,7 @@
 ## Login
 
 
-1. Hello @lab.User.FirstName, on @lab.VirtualMachine(SEA-DEV).SelectLink click @lab.CtrlAltDelete to activate the Ctrl + Alt + Delete sequence and bring up the logon page.
+1. Hello @lab.User.FirstName, on @lab.VirtualMachine(SEA-DEV).SelectLink select @lab.CtrlAltDelete to activate the Ctrl + Alt + Delete sequence and bring up the logon page.
 
     >[!KNOWLEDGE] Any links like the one above will send Ctrl+Alt+Delete to the selected machine. This can also be done the **Keyboard** menu in the upper-left hand corner of the screen.
 
@@ -16,4 +16,4 @@
 >[!note] This will copy the latest lab files from GitHub and configure the directories as needed for the remainder of the lab exercises. You will see a 'Success!' message above, once the process is complete.
 
 
-Once you have received the 'Success!' message, click **Next** to proceed to the lab.
+Once you have received the 'Success!' message, select **Next** to proceed to the lab.
