@@ -275,7 +275,7 @@ In this task, you'll create a hunting query, bookmark a result, and create a Liv
 
 1. Hide the right blade by selecting the **>>** icon and then scroll right until you see the ellipsis **(...)** icon.
 
-1. Select *Add to existing incident* to view the available incidents in the right pane, choose an incident and select *Add*. Then scroll left to confirm the *Severity* column is populated from the selected incident. If no incidents exist, you can create one manually in the Azure portal (Create an incident using the Azure portal), but for this lab the key takeaway is that *Bookmark investigations can be added to an existing incident*.
+1. Select **Add to existing incident** to view the available incidents in the right pane, choose an incident and select **Add**. Then scroll left to confirm the **Severity** column is populated from the selected incident. If no incidents exist, you can create one manually in the Azure portal (Create an incident using the Azure portal), but for this lab the key takeaway is that **Bookmark investigations can be added to an existing incident**.
 
    >**Note:** If no incidents exist yet, one can be created manually in the Azure portal as documented - [Create an incident using the Azure portal](https://learn.microsoft.com/en-us/azure/sentinel/create-incident-manually#create-an-incident-using-the-azure-portal)
 
