@@ -415,4 +415,4 @@ In this task, you'll use a Search job to look for a C2.
     - Add another filter.
     - Set the second filter to have techniques: T1098.
 
-## Proceed to Exercise 2
+## Proceed to Exercise 2 (optional - due to time constraints, we will not cover this exercise during the session. You may complete it on your own after the lab if you wish)
