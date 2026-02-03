@@ -374,7 +374,7 @@ In this task, you'll use a Search job to look for a C2.
 
 1. Select **Hunting queries** in the *Simulated rules* filter to see which techniques have hunting queries associated with them.
 
-1. Select the card for **Account Manipulation**.
+1. Select the card for **Account Manipulation** under **Persistence** or **Privilege Escalation** tactic.
 
 1. In the details pane, locate *Simulated coverage* and select the **View** link next to *Hunting queries*.
 
