@@ -206,7 +206,7 @@ In this task, you'll create a hunting query, bookmark a result, and create a Liv
     
    >**Important:** To prevent issues during the lab, first paste all KQL queries into Notepad, then copy them from there into the *New Query 1* log window. For a smoother experience, switch the query editor from Simple Mode to KQL Mode using the dropdown in the upper‑right corner of the *New Query 1* log window.
 
-1. Review the different results. You have now identified PowerShell requests that are running in your environment.
+9. Review the different results. You have now identified PowerShell requests that are running in your environment.
 
 1. Select the checkbox of the results that shows the *"-file c2.ps1"*.
 
