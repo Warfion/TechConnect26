@@ -102,7 +102,7 @@ In this task, you'll add an Azure Arc connected, on-premises machine to Microsof
 
 ### Prerequisite task 3: Command and Control Attack with DNS
 
->**Important:** The next steps are done on a different machine than the one you were previously working. Look for the Virtual Machine name in the references tab.
+>**Important:** The next steps are done on a different machine than the one you were previously working. Look for the Virtual Machine name in the resources tab.
 
 1. Log in to **WINServer** virtual machine as Administrator with the password: **Passw0rd!** if necessary.
 
