@@ -34,7 +34,7 @@ As described above, Azure Arc has been pre-installed on the **WINServer** machin
 
 1. On the *WINServer* machine, select the *search* icon and type **cmd**.
 
-1. In search results right click *Command Prompt* and select **Run as administrator**.
+1. In search results right select *Command Prompt* and select **Run as administrator**.
 
 1. In the Command Prompt window, type the following command. *Do not press enter*:
 
@@ -108,7 +108,7 @@ In this task, you'll add an Azure Arc connected, on-premises machine to Microsof
 
 1. On the *WINServer* machine, select the *search* icon and type **cmd**.
 
-1. In search results right click *Command Prompt* and select **Run as administrator**.
+1. In search results right select *Command Prompt* and select **Run as administrator**.
 
 1. Copy and run this command to create a script that will simulate a DNS query to a C2 server:
 
