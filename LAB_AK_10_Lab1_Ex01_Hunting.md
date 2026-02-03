@@ -38,7 +38,7 @@ As described above, Azure Arc has been pre-installed on the **WINServer** machin
 
 1. In the Command Prompt window, type the following command. *Do not press enter*:
 
-    ```cmd
+    ```
     azcmagent connect -g "defender-RG" -l "EastUS" -s "Subscription ID string"
     ```
 
@@ -52,7 +52,7 @@ As described above, Azure Arc has been pre-installed on the **WINServer** machin
 
 1. When the commands complete running, leave the *Command Prompt* window open and type the following command to confirm that the connection was successful:
 
-    ```cmd
+    ```
     azcmagent show
     ```
 
@@ -112,7 +112,7 @@ In this task, you'll add an Azure Arc connected, on-premises machine to Microsof
 
 1. Copy and run this command to create a script that will simulate a DNS query to a C2 server:
 
-    ```CommandPrompt
+    ```
     notepad c2.ps1
     ```
 
@@ -168,7 +168,7 @@ In this task, you'll add an Azure Arc connected, on-premises machine to Microsof
 
     >**Note:** You will see DNS resolve errors. This is expected.
 
-    ```CommandPrompt
+    ```
     Start PowerShell.exe -file c2.ps1
     ```
 ### Task 1: Create a hunting query
