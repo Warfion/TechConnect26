@@ -26,7 +26,7 @@ The log data created in the Learning Path 9 lab exercises will not be available 
 
 In this task, you'll connect an on-premises server to your Azure subscription. Azure Arc was pre-installed on this server. The server will be used in next exercises to run simulated attacks that you will later detect and investigate in Microsoft Sentinel.
 
->**Important:** The next steps are done on a different machine than the one you were previously working. Look for the Virtual Machine name in the references tab.
+>**Important:** The next steps are done on a different machine than the one you were previously working. Look for the Virtual Machine name in the resources tab.
 
 1. Log in to **WINServer** virtual machine as Administrator with the password: **Passw0rd!** if necessary.  
 
