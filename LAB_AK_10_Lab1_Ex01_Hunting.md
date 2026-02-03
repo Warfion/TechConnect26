@@ -171,9 +171,6 @@ In this task, you'll add an Azure Arc connected, on-premises machine to Microsof
     ```CommandPrompt
     Start PowerShell.exe -file c2.ps1
     ```
-
->**Important:** Do not close these windows. Let this PowerShell script run in the background. The command needs to generate log entries for some hours. You can proceed to the next task and next exercises while this script runs. The data created by this task will be used in the Threat Hunting lab later. This process will not create substantial amounts of data or processing.
-
 ### Task 1: Create a hunting query
 
 In this task, you'll create a hunting query, bookmark a result, and create a Livestream.
