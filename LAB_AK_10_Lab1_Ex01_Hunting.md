@@ -193,8 +193,6 @@ In this task, you'll create a hunting query, bookmark a result, and create a Liv
 
 1. Enter the following KQL Statement in the *New Query 1* space:
 
-   >**Important:** To prevent issues during the lab, first paste all KQL queries into Notepad, then copy them from there into the *New Query 1* log window. For a smoother experience, switch the query editor from Simple Mode to KQL Mode using the dropdown in the upper‑right corner of the *New Query 1* log window.
-
     ```
     let lookback = 2d; 
     SecurityEvent 
@@ -205,6 +203,8 @@ In this task, you'll create a hunting query, bookmark a result, and create a Liv
     | summarize min(TimeGenerated), count() by Computer, SubjectUserName, PwshParam 
     | order by count_ desc nulls last 
     ```
+    
+   >**Important:** To prevent issues during the lab, first paste all KQL queries into Notepad, then copy them from there into the *New Query 1* log window. For a smoother experience, switch the query editor from Simple Mode to KQL Mode using the dropdown in the upper‑right corner of the *New Query 1* log window.
 
 1. Review the different results. You have now identified PowerShell requests that are running in your environment.
 
