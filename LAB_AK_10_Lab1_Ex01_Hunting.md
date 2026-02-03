@@ -120,7 +120,7 @@ In this task, you'll add an Azure Arc connected, on-premises machine to Microsof
 
     >**Note:** Pasting into the virtual machine file might not show the full script length. Make sure the script matches  the instructions within the *c2.ps1* file.
 
-    ```PowerShell
+    ```
     param(
         [string]$Domain = "microsoft.com",
         [string]$Subdomain = "subdomain",
@@ -195,7 +195,7 @@ In this task, you'll create a hunting query, bookmark a result, and create a Liv
 
    >**Important:** To prevent issues during the lab, first paste all KQL queries into Notepad, then copy them from there into the *New Query 1* log window. For a smoother experience, switch the query editor from Simple Mode to KQL Mode using the dropdown in the upper‑right corner of the *New Query 1* log window.
 
-    ```KQL
+    ```
     let lookback = 2d; 
     SecurityEvent 
     | where TimeGenerated >= ago(lookback) 
@@ -230,7 +230,7 @@ In this task, you'll create a hunting query, bookmark a result, and create a Liv
 
 1. For the *Custom query* enter the following KQL statement:
 
-    ```KQL
+    ```
     let lookback = 2d; 
     SecurityEvent 
     | where TimeGenerated >= ago(lookback) 
@@ -300,7 +300,7 @@ In this task, instead of using a LiveStream, you'll create an NRT analytics quer
 
 1. For the *Rule query* enter the following KQL statement:
 
-    ```KQL
+    ```
     let lookback = 2d; 
     SecurityEvent 
     | where TimeGenerated >= ago(lookback) 
