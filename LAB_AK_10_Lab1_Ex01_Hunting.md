@@ -191,9 +191,9 @@ In this task, you'll create a hunting query, bookmark a result, and create a Liv
 
 1. Select **Logs**
 
-1. Enter the following KQL Statement in the *New Query 1* space:
+1. Enter the following KQL Statement in the *New Query 1* space.
 
-   >**Important:** Please paste any KQL queries first in Notepad and then copy from there to the *New Query 1* Log window to avoid any errors.
+   >**Important:** To prevent issues during the lab, first paste all KQL queries into Notepad, then copy them from there into the *New Query 1* log window. For a smoother experience, switch the query editor from Simple Mode to KQL Mode using the dropdown in the upper‑right corner of the *New Query 1* log window.
 
     ```KQL
     let lookback = 2d; 
