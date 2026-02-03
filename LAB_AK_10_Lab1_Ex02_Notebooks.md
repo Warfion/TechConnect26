@@ -47,7 +47,7 @@ In this task, you'll explore using notebooks in Microsoft Sentinel.
 1. In the Workspace details section do the following:
 
      - Give your workspace a unique name.
-     - Leave **East US** as the default value for *Region*.
+     - Leave default value for *Region*.
      - Keep the default Storage account, Key vault, and Application insights information.
      - The Container registry option can remain as **None**.
 
