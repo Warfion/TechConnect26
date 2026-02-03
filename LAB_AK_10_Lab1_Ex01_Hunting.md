@@ -230,7 +230,7 @@ In this task, you'll create a hunting query, bookmark a result, and create a Liv
 
 1. For the *Custom query* enter the following KQL statement:
 
-    ```KQL
+    ```
     let lookback = 2d; 
     SecurityEvent 
     | where TimeGenerated >= ago(lookback) 
