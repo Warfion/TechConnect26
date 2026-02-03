@@ -297,7 +297,7 @@ In this task, instead of using a LiveStream, you'll create an NRT analytics quer
     |---|---|
     |Name|**NRT PowerShell Hunt**|
     |Description|**NRT PowerShell Hunt**|
-    |Tactics|**Command and Control**|
+    |MITRE ATT&CK|**Command and Control**|
     |Severity|**High**|
 
 1. Select **Next: Set rule logic >** button. 
