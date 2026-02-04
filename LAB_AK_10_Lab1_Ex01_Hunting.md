@@ -208,6 +208,8 @@ In this task, you'll create a hunting query, bookmark a result, and create a Liv
 
 9. Execute the query by selecting Run. Review the query results. You have now identified suspicious PowerShell activity occurring within your environment.
 
+    >**Note:** It can sometimes take a while for the results to become available, especially if the data collection rule was recently set up. We therefore ask for your patience.
+
 1. Locate the result that includes the command parameter "-file c2.ps1" and note the contextual details.
 
 1. In this exercise, you will create a bookmark using Azure CLI (PowerShell mode) instead of the Sentinel portal.
