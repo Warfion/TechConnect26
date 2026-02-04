@@ -9,11 +9,6 @@
 
 1. Sign in as +++@lab.VirtualMachine(SEA-DEV).Username+++ with the password +++@lab.VirtualMachine(SEA-DEV).Password+++.
 
-## Download the Lab Files
+>**Note:** This is the VM in which you should run all cloud operations that need to be performed.
 
-@lab.Activity(DownloadFromGit)
-
->[!note] This will copy the latest lab files from GitHub and configure the directories as needed for the remainder of the lab exercises. You will see a 'Success!' message above, once the process is complete.
-
-
-Once you have received the 'Success!' message, select **Next** to proceed to the lab.
+Once you have connected successfully, select **Next** to proceed to the lab.
