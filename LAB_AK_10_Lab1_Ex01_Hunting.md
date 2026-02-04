@@ -1,10 +1,10 @@
 ---
 lab:
     title: 'Exercise 1 - Perform Threat Hunting in Microsoft Sentinel'
-    module: 'Learning Path 10 - Perform threat hunting in Microsoft Sentinel'
+    module: 'Learning Path - Perform threat hunting in Microsoft Sentinel'
 ---
 
-# Learning Path 10 - Lab 1 - Exercise 1 - Perform Threat Hunting in Microsoft Sentinel
+# Lab 1 - Exercise 1 - Perform Threat Hunting in Microsoft Sentinel
 
 ## Lab scenario
 
@@ -12,9 +12,9 @@ lab:
 
 You're a Security Operations Analyst working at a company that implemented Microsoft Sentinel. You have received threat intelligence about a Command and Control (C2 or C&C) technique. You need to perform a hunt and watch for the threat.
 
->**Important:** The lab exercises for Learning Path #10 are in a *standalone* environment. If you exit the lab before completing it, you will be required to re-run the configurations again.
+>**Important:** The lab exercises for this Learning Path are in a *standalone* environment. If you exit the lab before completing it, you will be required to re-run the configurations again.
 
-The log data created in the Learning Path 9 lab exercises will not be available in this lab without rerunning the following prerequisite tasks.
+The log data will not be available in this lab without rerunning the following prerequisite tasks.
 
 <!--- **[Lab 09 Exercise 5](https://microsoftlearning.github.io/SC-200T00A-Microsoft-Security-Operations-Analyst/Instructions/Labs/LAB_AK_09_Lab1_Ex05_Attacks.html)**
 
