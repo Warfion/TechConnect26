@@ -234,21 +234,9 @@ In this task, you'll create a hunting query, bookmark a result, and create a Liv
     -QueryEndTime (Get-Date)
     ```
 
-1. Once the command completes, open the newly created “Suspicious Activity” bookmark in the Microsoft Sentinel portal.
+1. After executing the command, open the newly created **Suspicious Activity** bookmark in the **Threat Management** section under **Hunting** on the **Bookmarks** tab of the Microsoft Sentinel portal to verify that the bookmark was created successfully. We will map this bookmark to an incident later.
 
-1. Navigate to Entity mapping.
-
-1. Select + Add new entity. For Entity select Host, then Hostname and Computer for the values.
-
-1. For Tactics and Techniques, choose Command and Control.
-
-1. In the *Add bookmark* blade, select **Create**. We will map this bookmark to an incident later.
-
-1. Close the *Logs* window by selecting the **X** in the top-right of the window and select **OK** to discard the changes. 
-
-1. Select your Microsoft Sentinel workspace again and select the **Hunting** page under the *Threat Management* area.
-
-1. Select the **Queries** tab and then **+ New Query** from the command bar.
+1. Next select the **Queries** tab and then **+ New Query** from the command bar.
 
 1. In the *Create custom query* window, for the *Name* enter **PowerShell Hunt**.
 
