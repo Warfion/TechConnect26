@@ -410,8 +410,6 @@ In this task, you'll use a Search job to look for a C2.
 
 1. You can also select a single query and select **View results** in the details pane.
 
-1. Review which queries returned results.
-
 1. Based on the results, determine if there's enough strong evidence to validate the hypothesis. If there isn’t, close the Hunt and mark it as invalidated.
 
 1. Alternative Steps:
