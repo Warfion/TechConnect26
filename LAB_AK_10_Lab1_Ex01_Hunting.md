@@ -281,7 +281,7 @@ In this task, you'll create a hunting query, bookmark a result, and create a Liv
 
 1. On the right pane, scroll down and select the **Investigate** button. **Hint:** It might take a couple of minutes to show the investigation graph.
 
-1. Explore the Investigation graph just like you did in the previous module. Notice the high number of *Related alerts* for *WINServer*.
+1. Explore the Investigation graph. Notice the high number of *Related alerts* for *WINServer*.
 
 1. Close the *Investigation* graph window by selecting the **X** in the top-right of the window. 
 
