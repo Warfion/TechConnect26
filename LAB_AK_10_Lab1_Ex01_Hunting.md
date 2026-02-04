@@ -206,7 +206,7 @@ In this task, you'll create a hunting query, bookmark a result, and create a Liv
     
    >**Important:** To prevent issues during the lab, first paste all KQL queries into Notepad, then copy them from there into the *New Query 1* log window. For a smoother experience, switch the query editor from Simple Mode to KQL Mode using the dropdown in the upper‑right corner of the *New Query 1* log window.
 
-9. Execute the query by selecting Run. Review the query results. You have now identified suspicious PowerShell activity occurring within your environment.
+9. Execute the query by selecting **Run**. Review the query results. You have now identified suspicious PowerShell activity occurring within your environment.
 
     >**Note:** It can sometimes take a while for the results to become available, especially if the data collection rule was recently set up. We therefore ask for your patience.
 
