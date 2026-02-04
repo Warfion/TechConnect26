@@ -214,7 +214,7 @@ In this task, you'll create a hunting query, bookmark a result, and create a Liv
 
     >**Note:** If an entry with the necessary PowerShell parameters does not appear ("PowerShell.exe -file c2.ps1"), restarting the script (c2.ps1) on **WINServer** may help.
     
-1. In this exercise, you will create a bookmark using Azure CLI (PowerShell mode) instead of the Sentinel portal.
+1. In the following steps of this exercise, you will create a bookmark using Azure CLI (PowerShell mode) in stead of the Sentinel portal.
 
 1. Launch Azure Cloud Shell, and switch to PowerShell mode. Go to the Azure portal and select the Cloud Shell icon (top‑right corner). When prompted, choose PowerShell as the shell environment.
 
