@@ -225,11 +225,11 @@ In this task, you'll create a hunting query, bookmark a result, and create a Liv
     -ResourceGroupName "defender-RG" `
     -WorkspaceName "defenderWorkspace" `
     -Id ((New-Guid).Guid) `
-    -Query "SecurityEvent | where EventID == 4688 and Process =~ "powershell.exe"
+    -Query 'SecurityEvent | where EventID == 4688 and Process =~ "powershell.exe"
     | extend PwshParam = trim(@"[^/\\]*powershell(.exe)+" , CommandLine) 
     | project TimeGenerated, Computer, SubjectUserName, PwshParam 
     | summarize min(TimeGenerated), count() by Computer, SubjectUserName, PwshParam 
-    | order by count_ desc nulls last" `
+    | order by count_ desc nulls last' `
     -QueryStartTime (Get-Date).AddDays(-2) `
     -QueryEndTime (Get-Date)
     ```
