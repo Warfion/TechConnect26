@@ -279,10 +279,10 @@ In this task, you'll create a hunting query, bookmark a result, and create a Liv
 
 1. Select the bookmark you created from the results list.
 
-1. On the right pane, scroll down and select the **Investigate** button. **Hint:** It might take a couple of minutes to show the investigation graph.
+1. On the right pane, scroll down and select the **Investigate** button. 
 
-1. Explore the Investigation graph. Notice the high number of *Related alerts* for *WINServer*.
-
+1. Explore the investigation graph. It should provide an interactive, visual map of the entities (users, IP addresses, and hosts) and their relationships, as derived from the query results. **Hint:** It may take a few minutes for the graph to appear. Feel free to skip it if you are short on time.
+   
 1. Close the *Investigation* graph window by selecting the **X** in the top-right of the window. 
 
 1. Hide the right blade by selecting the **>>** icon and then scroll right until you see the ellipsis **(...)** icon.
