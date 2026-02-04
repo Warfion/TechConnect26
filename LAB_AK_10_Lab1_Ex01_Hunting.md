@@ -206,17 +206,37 @@ In this task, you'll create a hunting query, bookmark a result, and create a Liv
     
    >**Important:** To prevent issues during the lab, first paste all KQL queries into Notepad, then copy them from there into the *New Query 1* log window. For a smoother experience, switch the query editor from Simple Mode to KQL Mode using the dropdown in the upper‑right corner of the *New Query 1* log window.
 
-9. Review the different results. You have now identified PowerShell requests that are running in your environment.
+9. Review the query results. You have now identified suspicious PowerShell activity occurring within your environment.
 
-1. Select the checkbox of the results that shows the *"-file c2.ps1"*.
+1. Locate the result that includes the command parameter "-file c2.ps1" and note the contextual details.
 
-1. In the *Results* pane command bar, select the **Add bookmark** button.
+1. In this exercise, you will create a bookmark using Azure CLI (PowerShell mode) instead of the Sentinel portal.
 
-1. Select **+ Add new entity** under *Entity mapping*.
+1. Launch Azure Cloud Shell, and switch to PowerShell mode. Go to the Azure portal and select the Cloud Shell icon (top‑right corner). When prompted, choose PowerShell as the shell environment.
 
-1. For *Entity* select **Host**, then **Hostname** and **Computer** for the values.
+1. Run the following PowerShell command to create a new Microsoft Sentinel bookmark programmatically:
 
-1. For *Tactics and Techniques*, select **Command and Control**.
+    ```
+    New-AzSentinelBookmark -DisplayName "Suspicious Activity" `
+    -ResourceGroupName "defender-RG" `
+    -WorkspaceName "defenderWorkspace" `
+    -Id ((New-Guid).Guid) `
+    -Query "SecurityEvent | where EventID == 4688 and Process =~ "powershell.exe"
+    | extend PwshParam = trim(@"[^/\\]*powershell(.exe)+" , CommandLine) 
+    | project TimeGenerated, Computer, SubjectUserName, PwshParam 
+    | summarize min(TimeGenerated), count() by Computer, SubjectUserName, PwshParam 
+    | order by count_ desc nulls last" `
+    -QueryStartTime (Get-Date).AddDays(-2) `
+    -QueryEndTime (Get-Date)
+    ```
+
+1. Once the command completes, open the newly created “Suspicious Activity” bookmark in the Microsoft Sentinel portal.
+
+1. Navigate to Entity mapping.
+
+1. Select + Add new entity. For Entity select Host, then Hostname and Computer for the values.
+
+1. For Tactics and Techniques, choose Command and Control.
 
 1. In the *Add bookmark* blade, select **Create**. We will map this bookmark to an incident later.
 
