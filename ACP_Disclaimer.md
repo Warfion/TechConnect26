@@ -1,1 +1,1 @@
-
+>[!alert] Azure resources such as Virtual Machine names, sizes and locations must match what is specified in these steps. Due to the nature of this lab, deployments are limited to the scope defined in the instructional steps. If the resources provisioned differ from what is outlined in the instructions, a failure notification will be received, advising this was “disallowed by policy.” If you believe you have received this notification in error, please submit a support request for our team to investigate further.
