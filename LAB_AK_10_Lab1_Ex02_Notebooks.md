@@ -47,6 +47,7 @@ In this task, you'll explore using notebooks in Microsoft Sentinel.
 1. In the Workspace details section do the following:
 
      - Give your workspace a unique name.
+       >**Note:** The workspace name must follow this format: LabUser-<instance-id> (for example, LabUser-58877684). You can copy the instance ID from the Resources tab.
      - Leave default value for *Region*.
      - Keep the default Storage account, Key vault, and Application insights information.
      - The Container registry option can remain as **None**.
