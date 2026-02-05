@@ -1,10 +1,10 @@
 ---
 lab:
     title: 'Exercise 2 - Threat Hunting using Notebooks with Microsoft Sentinel'
-    module: 'Learning Path 10 - Perform threat hunting in Microsoft Sentinel'
+    module: 'Learning Path - Perform threat hunting in Microsoft Sentinel'
 ---
 
-# Learning Path 10 - Lab 1 - Exercise 2 - Threat Hunting using Notebooks with Microsoft Sentinel
+# Learning Path - Lab 1 - Exercise 2 - Threat Hunting using Notebooks with Microsoft Sentinel
 
 ## Lab scenario
 
@@ -14,7 +14,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
 - Create data visualizations that aren't provided out-of-the-box in Microsoft Sentinel, such as custom timelines and process trees.
 - Integrate data sources outside of Microsoft Sentinel, such as an on-premises data set.
 
->**Important:** The lab exercises for Learning Path #10 are in a *standalone* environment. If you exit the lab before completing it, you will be required to re-run the configurations again.
+>**Important:** The lab exercises for the Learning Path are in a *standalone* environment. If you exit the lab before completing it, you will be required to re-run the configurations again.
 
 ### Estimated time to complete this lab: 30 minutes
 
