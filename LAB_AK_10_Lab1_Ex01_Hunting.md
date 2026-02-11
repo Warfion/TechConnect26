@@ -79,7 +79,7 @@ In this task, you'll add an Azure Arc connected, on-premises machine to Microsof
 1. In the Microsoft Sentinel left navigation menu, scroll down to the *Configuration* section and select **Data connectors**.
 
 1. In the *Data connectors*, search for the **Windows Security Events via AMA** solution and select it from the list.
-       >**Note:** If Windows Security Events isn’t installed, go to Content Hub and install the solution.
+    >**Note:** If Windows Security Events isn’t installed, go to Content Hub and install the solution.
 
 1. On the *Windows Security Events via AMA* details pane, select **Open connector page**.
 
